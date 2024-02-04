@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Calculadora de IMC</h1>
     <main>
-        <h1>Calculadora de IMC</h1>
         <div id="calculadora">
            <p>Calcule seu IMC abaixo:</p>
            <div id="altura">
-            <label for="ialt">Coloque sua Altura:<input type="text" name="ialt" id="ialt"></label>
+            <label for="ialt">Coloque sua Altura:<input type="text" name="ialt" id="ialt"> m</label>
         
+            </div>
             <div id="peso">
-                <label for="ipeso">Coloque seu Peso: <input type="text" name="ipeso" id="ipeso"></label>
+                <label for="ipeso">Coloque seu Peso: <input type="text" name="ipeso" id="ipeso"> Kg</label>
         
             </div>
             <input id="botao" type="button" value="Calcular" onclick="calcular()">
         </div>
+        <div id="res">teste</div>
     </main>
-</div>
+    <script src="calc.js"></script>
 </body>
 </html>
