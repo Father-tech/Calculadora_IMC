@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+/*Typical Device Breakpoint
+-----------------------------------
+Celular - 600px — 768px.
+Tablets - 768px — 992px.
+Desktop - 992px — 1200px.
+TVs - 1201px and more.
+------------------------------------
+*/
+
+@media screen and (min-width: 60px) and (max-width: 769px) {
+     h1{
+        font-size: 40px;
+     }
+    #calculadora {
+        width: 80vw;
+    }
+    #calculadora > p {
+        font-size: 30px
+    }
+    #altura, #peso{
+        font-size: 20px;
+    }
+    input{
+        width: 100px;
+    }
+
+    #botao{
+        width: 100px;
+
+    }
+    #img{
+        width: 400px;
+        height: 80vh;
+    }
+
+}

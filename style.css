@@ -7,11 +7,11 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
 }
 h1{
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     font-size: 50px;
 }
@@ -38,11 +38,11 @@ main{
 }
 
 #altura{
-    margin: 20px 0px;
+    margin: 30px 0px 10px 0px;
     font-size: 30px;
 }
 #peso{
-    margin: 30px 0px 10px 0px;
+    margin: 20px 0px;
     font-size: 30px;
 }
 input{
@@ -61,4 +61,15 @@ input{
 
 #res{
     font-size: 25px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: end;
+}
+#img {
+    height: 40vh;
+    width: 45vw;
 }

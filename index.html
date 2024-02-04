@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
 </head>
 <body>
     <h1>Calculadora de IMC</h1>
     <main>
         <div id="calculadora">
            <p>Calcule seu IMC abaixo:</p>
+           <div id="peso">
+            <label for="ipeso">Coloque seu Peso: <input type="text" name="ipeso" id="ipeso"> Kg</label>
+        </div>
            <div id="altura">
             <label for="ialt">Coloque sua Altura:<input type="text" name="ialt" id="ialt"> m</label>
-        
-            </div>
-            <div id="peso">
-                <label for="ipeso">Coloque seu Peso: <input type="text" name="ipeso" id="ipeso"> Kg</label>
         
             </div>
             <input id="botao" type="button" value="Calcular" onclick="calcular()">
         </div>
         <div id="res">teste</div>
     </main>
+    <footer>
+        <img id="img" src="imagens/tipos.jpg" alt="">
+    </footer>
     <script src="calc.js"></script>
 </body>
 </html>
