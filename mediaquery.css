@@ -41,7 +41,7 @@ TVs - 1201px and more.
     }
 
 }
-@media screen and (min-height: 60px) and (max-height: 600px) {
+@media screen and (min-height: 600px) and (max-height: 800px) {
     #calculadora{
         margin-top: 20px;
     }
