@@ -39,10 +39,12 @@ main{
 
 #altura{
     margin: 30px 0px 10px 0px;
+    width: 100%;
     font-size: 30px;
 }
 #peso{
     margin: 20px 0px;
+    width: 100%;
     font-size: 30px;
 }
 input{
